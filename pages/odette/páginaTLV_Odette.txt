@@ -1,6 +1,8 @@
 Actividad 
 El modelo de cajas y el Layout 
 
+Modifiqué la página home.html y agregue la página contacto.html con el formulario para cumplir los requerimientos aplicando responsividad.
+
 Corregí los errores que encontre en el nav y el footer y los deje responsivos al igual que el contenido de la página home.html con css, le puse un poco de js para la responsividad del navbar.
 
 El preprocesador SASS 

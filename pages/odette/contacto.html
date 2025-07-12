@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href=".../css/global.css" />
+  <!-- <link rel="stylesheet" href="../antonio/css/styles.css"> -->
+  <!-- <link rel="stylesheet" href="../odette/antonio copy.css" /> -->
+  <!-- <link rel="stylesheet" href="../odette/css/home.css" /> -->
+  <link rel="stylesheet" href="../odette/odette.css" />
+  <link rel="stylesheet" href="../pedro/pedro.css" />
+  <!-- <link rel="stylesheet" href="../odette/jose copy.css" /> -->
+  <!-- <link rel="stylesheet" href="../jose/css/jose.css" /> -->
+  <script src=".../js/global.js"></script>
+  <script src="odette.js"> async</script>
+  <title>Te lo Vendo | Home</title>
+</head>
+<body>
+<header class="header">
+<nav class="navbar">
+    <div class="navbar__seccion navbar__seccion--izquierda">
+        <div class="navbar__logo">
+        <img src="/assets/img/logo_nav.svg" alt="Logo de Te lo Vendo" class="navbar__logo-img">
+            <span class="navbar__brand">Te lo Vendo</span></div>
+        <ul class="navbar__links">
+            <li class="navbar__item"><a href="../odette/home.html" class="navbar__link">Home</a></li>
+            <!-- <li class="navbar__item"><a href="../pedro/catalog.html" class="navbar__link">Shop</a></li>
+            <li class="navbar__item"><a href="../jose/aboutus.html" class="navbar__link">About</a></li> -->
+            <li class="navbar__item"><a href="../odette/contacto.html" class="navbar__link">Contact</a></li>
+            <!-- <li class="navbar__item"><a href="../antonio/detail.html" class="navbar__link">Contact</a></li> -->
+
+        </ul>
+    </div>
+    <button class="navbar__toggle" aria-label="Abrir menú de navegación">
+            <span class="navbar__toggle-icon"></span>
+        </button>
+    <div class="navbar__seccion navbar__seccion--derecha">
+    <button class="navbar__button navbar__search" aria-label="Buscar">
+        <img src="/assets/img/search.svg" alt="Buscar">
+    </button>
+
+    <button class="navbar__button navbar__cart" aria-label="Abrir carrito de compras">
+        <img src="/assets/img/carrito.svg" alt="Carrito de compras" class="cart__icon">
+    </button>
+
+    <button class="navbar__button navbar__avatar" aria-label="Abrir perfil de usuario">
+        <img src="/assets/img/usuario.svg" alt="Usuario">
+    </button>
+</div>
+</nav>
+</header>
+
+<main class="contenido main">
+   
+
+    <section class="contact-form-section">
+        <div class="contact-form-container">
+            <h3 class="contact-form__title">Envíanos un mensaje!</h3>
+            <p class="contact-form__description">Queremos saber de tí, por favor llena el formulario a continuación.</p>
+            
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="first-name" class="form-label">Nombre</label>
+                    <input type="text" id="first-name" name="first_name" class="form-input" placeholder="Tu primer nombre" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="last-name" class="form-label">Apellido</label>
+                    <input type="text" id="last-name" name="last_name" class="form-input" placeholder="Tu apellido" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="tu.email@ejemplo.com" required>
+                </div>
+
+                <div class="form-group form-group--full-width">
+                    <label for="comment" class="form-label">Comentario</label>
+                    <textarea id="comment" name="comment" class="form-textarea" rows="5" placeholder="Tu mensaje aquí..." required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Envía el mensaje!</button>
+            </form>
+        </div>
+    </section>
+
+    </main>
+</body>
+</html>
