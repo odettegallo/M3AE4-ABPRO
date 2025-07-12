@@ -535,6 +535,20 @@ flex-wrap: wrap;
   font-weight: 400 !important;
   line-height: 24px;
 }
+.íconos__footer {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; */
+    display: flex;
+    justify-content: right;
+    align-items: inherit;
+    align-content: inherit;
+    gap: 16px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    margin: 0px 30px 44px 20px;
+}
 .footer__copyright {
   display: flex;
   flex-direction: column;
