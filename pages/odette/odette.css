@@ -515,7 +515,7 @@ align-self: stretch;
 .footer__links {
   display: flex;
 justify-content: space-between;
-align-items: center;
+align-items:first baseline;
 align-content: center;
 row-gap: 24px;
 align-self: stretch;
